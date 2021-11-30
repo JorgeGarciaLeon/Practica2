@@ -8,7 +8,8 @@ public class Main {
         Customer customer1 = new Customer(vegetables,3, 3000);
         Customer customer2 = new Customer(vegetables,2, 3000);
 
-
+        farmer1.setPriority(9);
+        farmer2.setPriority(9);
         farmer1.start();
         farmer2.start();
         customer1.start();
